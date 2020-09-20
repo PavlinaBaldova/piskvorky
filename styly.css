@@ -11,15 +11,17 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
 .heading {
   font-family: 'Lobster', cursive;
   text-align: center;
+  font-size: 40px;
+  margin: 20px;
 }
 
- /*body {
-  background-image: linear-gradient(#615dad, #ffc8da);
-}*/
+ body {
+  background-image: linear-gradient(to bottom, #615dad,  #ffc8da )
+}
 
 .content {
-  background-color: #283e50;
   color: white;
+  background-color: #283e50;
 }
 
 .image {
@@ -34,27 +36,38 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
   margin: 0;
 }
 
-li {
+.button__rules {
   list-style: none;
   text-align: center;
+  background-color: #1fcca4;
+  padding: 0;
+
 }
 
+.button__start {
+  list-style: none;
+  text-align: center;
+  background-color: #0197f6;
 
-.button__rules {
+}
+
+a {
   text-decoration: none;
   color: white;
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: auto;
+  padding-left: auto;
 }
-
- .button__start {
-  text-decoration: none;
-  color: white;
-  display: inline-block;
- }
-
-
 
 .content__text {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  line-height: 1.5;
+  padding: 20px;
+  margin: 0;
 }
+
+
