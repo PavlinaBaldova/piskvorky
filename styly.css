@@ -87,6 +87,17 @@ a {
 
 @media only screen and (min-width: 600px) {
   .content {
-    width: 60%;
-  }
+    margin: 100px;
+
+    }
 }
+
+@media only screen and (min-width: 1000px) {
+  .content {
+    width: 30%;
+  }
+  .content__text {
+padding: 30px 30px 60px 30px ;
+  }
+    
+    }
