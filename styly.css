@@ -5,9 +5,6 @@ Podkladová tmavě modrá #283e50.
 Tlačítko Pravidla #1fcca4. A po najetí myši #1cbb96.
 Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
 
-
-
-
 .heading {
   font-family: 'Lobster', cursive;
   text-align: center;
@@ -15,13 +12,17 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
   margin: 20px;
 }
 
- body {
-  background-image: linear-gradient(to bottom, #615dad,  #ffc8da )
+body {
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  margin: 0;
+  padding: 0;
 }
 
 .content {
   color: white;
   background-color: #283e50;
+  margin: 0;
+  padding: 0;
 }
 
 .image {
@@ -42,14 +43,12 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
   background-color: #1fcca4;
   padding: 0;
   border-bottom: 1px solid black;
-
 }
 
 .button__start {
   list-style: none;
   text-align: center;
   background-color: #0197f6;
-
 }
 
 a {
@@ -74,30 +73,26 @@ a {
 
 .button__rules:hover,
 .button__rules:focus {
-  background-color: #1cbb96 ;
+  background-color: #1cbb96;
 }
 
 .button__start:hover,
 .button__start:focus {
-  background-color: #0090e9 ;
+  background-color: #0090e9;
 }
-
-
-
 
 @media only screen and (min-width: 600px) {
   .content {
     margin: 100px;
-
-    }
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
   .content {
-    width: 30%;
+    width: 25%;
   }
   .content__text {
-padding: 30px 30px 60px 30px ;
+    padding: 30px 30px 60px 30px;
   }
-    
-    }
+}
