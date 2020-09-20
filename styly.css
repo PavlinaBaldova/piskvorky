@@ -10,19 +10,27 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
   text-align: center;
   font-size: 50px;
   margin: 20px;
+  font-weight: normal;
 }
 
 body {
-  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
   margin: 0;
   padding: 0;
 }
+
+.background {
+  background: linear-gradient(to bottom, #615dad, #ffc8da);
+  height: 100%; 
+} 
+
 
 .content {
   color: white;
   background-color: #283e50;
   margin: 0;
   padding: 0;
+  width: 20%;
+  margin: 80px 750px;
 }
 
 .image {
@@ -79,20 +87,4 @@ a {
 .button__start:hover,
 .button__start:focus {
   background-color: #0090e9;
-}
-
-@media only screen and (min-width: 600px) {
-  .content {
-    margin: 100px;
-    width: 70%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .content {
-    width: 25%;
-  }
-  .content__text {
-    padding: 30px 30px 60px 30px;
-  }
 }
