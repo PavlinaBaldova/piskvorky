@@ -29,7 +29,9 @@ body {
   background-color: #283e50;
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 350px;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
 }
 
 .container {
@@ -42,6 +44,8 @@ body {
 
 .image {
   width: 100%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
 }
 
 .buttons {
