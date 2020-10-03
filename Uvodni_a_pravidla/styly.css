@@ -110,6 +110,7 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .title {
@@ -133,12 +134,11 @@ body {
 .content__rules {
   color: white;
   background-color: #283e50;
-  margin: 30px;
   padding: 0;
   width: 400px;
   border-top-left-radius: 1%;
   border-top-right-radius: 1%;
-
+  margin-top: 100px;
 }
 
 .rules__list {
