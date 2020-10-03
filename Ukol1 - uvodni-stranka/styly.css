@@ -1,9 +1,5 @@
-/* nadpis:Lobster
-gradient: #615dad, #ffc8da
-Barva textu #ffffff.
-Podkladová tmavě modrá #283e50.
-Tlačítko Pravidla #1fcca4. A po najetí myši #1cbb96.
-Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
 
 .heading {
   font-family: 'Lobster', cursive;
@@ -22,6 +18,7 @@ body {
   background: linear-gradient(to bottom, #615dad, #ffc8da);
   height: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .content {
@@ -98,3 +95,10 @@ a {
 .button__start:focus {
   background-color: #0090e9;
 }
+
+/* nadpis:Lobster
+gradient: #615dad, #ffc8da
+Barva textu #ffffff.
+Podkladová tmavě modrá #283e50.
+Tlačítko Pravidla #1fcca4. A po najetí myši #1cbb96.
+Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
