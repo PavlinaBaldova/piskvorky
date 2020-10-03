@@ -167,13 +167,14 @@ figcaption {
 .icon {
   width: 1em;
   height: 1em;
+  filter: invert(100%);
 }
 
 figure {
   padding: 10px 0;
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 750px) {
   .content__rules {
     width: 700px;
   }
