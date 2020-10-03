@@ -1,5 +1,11 @@
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 .heading {
   font-family: 'Lobster', cursive;
@@ -110,7 +116,6 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .title {
@@ -124,7 +129,7 @@ Tlačítko Začít hrát #0197f6. Po najetí #0090e9. */
 
 body {
   color: white;
-  font-size: 18px;;
+  font-size: 16px;
 }
 
 .instruction {
@@ -136,9 +141,9 @@ body {
   background-color: #283e50;
   padding: 0;
   width: 400px;
-  border-top-left-radius: 1%;
-  border-top-right-radius: 1%;
   margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .rules__list {
@@ -159,7 +164,7 @@ figcaption {
 }
 
 .icon {
-  width: 1em; 
+  width: 1em;
   height: 1em;
 }
 
@@ -167,4 +172,29 @@ figure {
   padding: 10px 0;
 }
 
+@media only screen and (min-width: 1400px) {
+  .content__rules {
+    width: 700px;
+  }
 
+  .container__rules--images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  figure {
+    width: 50%;
+    align-self: baseline;
+    margin: 0;
+    padding: 20px;
+  }
+  figcaption {
+    padding: 0;
+  }
+
+
+}
