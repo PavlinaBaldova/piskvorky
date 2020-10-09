@@ -203,8 +203,8 @@ figure {
 
 .container__grid {
   display: grid;
-  grid-template-columns: repeat(10, 70px);
-  grid-template-rows: repeat(10, 70px);
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
   justify-content: center;
 }
 
@@ -219,20 +219,38 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 700px;
+  width: 500px;
 }
 
 .tabs {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+}
+
+.icon {
+  align-self: center;
 }
 
 .tabs__play {
   text-transform: uppercase;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  margin: 0;
+  display: flex;
+}
 
+.tabs__play::after {
+  content:"";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 0;
+  padding: 0;
 }
 
 .icons {
@@ -243,25 +261,34 @@ figure {
   filter: invert(100%);
   width: 70px;
   height: 50px;
-  margin-bottom: 15px;;
+  margin-bottom: 15px;
 
 }
 
 .icon__homepage {
   background-color: #1fcca4;
-  width: 45%;
+  width: 100%;
   height: 30px;
   padding: 5px;
   border-radius: 5px;
+
 
 }
 
 .icon__restart {
   background-color:  #0197f6;
-  width: 45%;
+  width: 100%;
   height: 30px;
   padding: 5px;
   border-radius: 5px;
+}
+
+button {
+  border: 1px solid black;
+  background: linear-gradient(to bottom, #615dad, #ffc8da);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .icon__homepage:hover,
@@ -273,4 +300,24 @@ figure {
 .icon__restart:focus {
   background-color: #0090e9;
 }
+
+.heading__game {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.body {
+  max-width: 80vmin;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
