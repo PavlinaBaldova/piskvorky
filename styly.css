@@ -236,5 +236,41 @@ figure {
 }
 
 .icons {
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  filter: invert(100%);
+  width: 70px;
+  height: 50px;
+  margin-bottom: 15px;;
+
 }
+
+.icon__homepage {
+  background-color: #1fcca4;
+  width: 45%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.icon__restart {
+  background-color:  #0197f6;
+  width: 45%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon__homepage:hover,
+.icon__homepage:focus {
+  background-color: #1cbb96;
+}
+
+.icon__restart:hover,
+.icon__restart:focus {
+  background-color: #0090e9;
+}
+
