@@ -203,8 +203,8 @@ figure {
 
 .container__grid {
   display: grid;
-  grid-template-columns: repeat(10, 50px);
-  grid-template-rows: repeat(10, 50px);
+  grid-template-columns: repeat(10, 55px);
+  grid-template-rows: repeat(10, 55px);
   justify-content: center;
 }
 
@@ -289,7 +289,17 @@ button {
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
+
+button:hover,
+button:focus {
+  filter: brightness(120%);
+
+}
+
+
+
 
 .icon__homepage:hover,
 .icon__homepage:focus {
