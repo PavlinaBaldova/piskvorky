@@ -225,8 +225,8 @@ figure {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 90px;
-  justify-content: flex-end;
+  width: 95px;
+  justify-content: space-between;
 }
 
 
@@ -246,6 +246,7 @@ figure {
   margin: 0 ;
   padding: 0;
 }
+
 
 .icons {
   display: flex;
