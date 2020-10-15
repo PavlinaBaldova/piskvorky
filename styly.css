@@ -203,8 +203,10 @@ figure {
 
 .container__grid {
   display: grid;
-  grid-template-columns: repeat(10, 70px);
-  grid-template-rows: repeat(10, 70px);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 80vmin;
+  height: 80vmin;
 }
 
 .content__game {
@@ -218,7 +220,7 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 700px;
+  width: 100%;
 }
 
 .tabs {
