@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 ::after,
 ::before {
@@ -194,6 +195,7 @@ figure {
     margin: 0;
     padding: 10px;
   }
+
   figcaption {
     padding-top: 10px;
   }
@@ -245,7 +247,7 @@ figure {
   height: 20px;
   border-radius: 50%;
   border: 3px solid white;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
 }
 
@@ -283,14 +285,14 @@ button {
   background: linear-gradient(to bottom, #615dad, #ffc8da);
   height: 100%;
   opacity: 0.4;
-  filter: brightness(180%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  filter: brightness(180%);
 }
 
 button:hover,
 button:focus {
- opacity: 0.7;
+  opacity: 0.7;
 }
 
 .icon__homepage:hover,
@@ -316,4 +318,58 @@ button:focus {
 .icons a {
   padding: 0;
 }
+
+
+
+/*---ikonky pro HRA.JS*/
+
+.board__field--circle {
+  
+  background: url(images/circle.svg);
+  background-position: center center;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  animation: board__field--circle 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+  
+
+.board__field--cross {
+  background: url(images/cross.svg);
+  background-position: center center;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  animation: board__field--cross 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes board__field--cross{
+  0% {
+    transform: scale(0);
+  } 50% { 
+    transform: scale(0.5);
+   } 100% {
+     transform: scale(1);
+  }
+}
+
+@keyframes board__field--circle{
+  0% {
+    transform: scale(0);
+  } 50% { 
+    transform: scale(0.5);
+   } 100% {
+     transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
