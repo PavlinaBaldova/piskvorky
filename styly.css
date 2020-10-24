@@ -241,7 +241,7 @@ figure {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.tabs__play::after {
+/*.tabs__play::after {
   content: '';
   width: 20px;
   height: 20px;
@@ -249,7 +249,7 @@ figure {
   border: 3px solid white;
   margin: 0;
   padding: 0;
-}
+}*/
 
 
 .icons {
@@ -281,13 +281,13 @@ figure {
 }
 
 button {
-  border: 1px solid black;
   background: linear-gradient(to bottom, #615dad, #ffc8da);
   height: 100%;
   opacity: 0.4;
   background-repeat: no-repeat;
   background-attachment: fixed;
   filter: brightness(180%);
+  border: 1px solid black;
 }
 
 button:hover,
@@ -324,13 +324,12 @@ button:focus {
 /*---ikonky pro HRA.JS*/
 
 .board__field--circle {
-  
   background: url(images/circle.svg);
   background-position: center center;
   opacity: 1;
   background-repeat: no-repeat;
   background-size: 70%;
-  animation: board__field--circle 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: board__field--circle 0.2s;
 }
   
 
@@ -340,8 +339,9 @@ button:focus {
   opacity: 1;
   background-repeat: no-repeat;
   background-size: 70%;
-  animation: board__field--cross 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: board__field--cross 0.2s;
 }
+
 
 @keyframes board__field--cross{
   0% {
