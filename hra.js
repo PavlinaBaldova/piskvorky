@@ -5,29 +5,6 @@ console.log("funguji");
 
 
 
-/*const player = "circle";
-
-const game = () => {
-  if (player === "circle") {
-    document.querySelector("button").classList.add("board__field--circle");
-    document.querySelector(".tabs__play").innerHTML = ""
-
-
-
-
-  }
-}
-
-
-
-
-
-<img class="circle__image" src="images/circle.svg" alt="Kolečko"/>*/
-
-
-
-
-
 let player = "circle";
 
 const play = (event) => {
