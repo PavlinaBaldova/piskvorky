@@ -287,7 +287,8 @@ button {
 
 button:focus,
 button:hover {
-  filter: brightness(200%);
+  background-color: rgb(251, 194, 224);
+  filter: brightness(120%);
 }
 
 .icon__homepage:hover,
