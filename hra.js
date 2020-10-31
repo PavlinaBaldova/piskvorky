@@ -114,11 +114,11 @@ const play = (event) => {
   }
   if (isWinningMove(event.target)) {
     if (event.target.classList.contains('board__field--cross')) {
-      setTimeout(() => confirm('Vyhrává křížek! Chcete další hru?'), 170);
-      setTimeout(() => location.reload(), 170);
+      setTimeout(() => confirm('Vyhrává křížek! Chcete další hru?'), 250);
+      setTimeout(() => location.reload(), 250);
     } else if (event.target.classList.contains('board__field--circle')) {
-      setTimeout(() => confirm('Vyhrává kolečko! Chcete další hru?'), 140);
-      setTimeout(() => location.reload(), 140);
+      setTimeout(() => confirm('Vyhrává kolečko! Chcete další hru?'), 250);
+      setTimeout(() => location.reload(), 250);
     }
   } 
 };
