@@ -100,7 +100,7 @@ const play = (event) => {
     event.target.disabled = true;
     const tabsPlay = document.querySelector('.tabs');
     tabsPlay.innerHTML = `<p class="tabs tabs__play">Hraje:<img
-    class= "icon" src="images/circle.svg"
+    class= "icon" src="images/cross.svg"
     alt="Ikona kolečka"/></p>`;
     player = "cross";
   } else if (player === "cross") {
@@ -108,7 +108,7 @@ const play = (event) => {
     event.target.disabled = true;
     const tabsPlay = document.querySelector('.tabs');
     tabsPlay.innerHTML = `<p class="tabs tabs__play">Hraje:<img
-      class= "icon" src="images/cross.svg"
+      class= "icon" src="images/circle.svg"
       alt="Ikona křížku"/></p>`;
     player = "circle";
   }
